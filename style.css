@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+   SELECTORS
+ */
+
+h1 {
+  font-size: 32px;
+  color: #003366;
+  text-align: center;
+}
+
+form {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+.start {
+  margin-top: 30px;
+}
+
+.form-section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #e6f0ff;
+  border-radius: 8px;
+}
+
+#main-title {
+  color: rgb(0, 60, 139);
+  background-color: rgb(187, 229, 245);
+  padding: 20px;
+  border-radius: 50px;
+  border: 2px solid rgb(168, 219, 240);
+  margin: 10px;
+}
+
+.green.bold {
+  color: rgb(0, 128, 0);
+  font-weight: bold;
+}
+
+input[type*="text"] {
+  padding: 6px;
+}
+
+img[src*="winter"] {
+  opacity: 0.8;
+}
+
+.form-section label {
+  font-weight: bold;
+}
+
+.main-list li {
+  margin-left: 20px;
+}
+
+/* ----- Multiple Selectors at once ----- */
+h1,
+h2,
+.menu {
+  font-family: Arial, sans-serif;
+}
+
+h1.title {
+  color: purple;
+}
+
+/* ----- Pseudo-classes ----- */
+a:hover {
+  color: red;
+}
+
+input:focus {
+  border-color: green;
+}
+
+input:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+a:visited {
+  color: purple;
+}
+
+button:active,
+input[type="submit"]:active {
+  background-color: darkblue;
+  color: white;
+}
+
+/* 
+   VISUAL RULES
+ */
+
+body {
+  font-family: Verdana, sans-serif;
+  background-image: linear-gradient(white, lightblue);
+}
+
+h2 {
+  text-align: center;
+  color: darkslategray;
+}
+
+blockquote {
+  text-align: center;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* 
+   BOX MODEL REQUIREMENTS
+ */
+
+.menu-area a {
+  margin: 30px;
+  padding: 6px 10px 5px 12px;
+  background-color: #c2c5c9;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.menu-area {
+  margin: 30px;
+}
+
+aside {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* width/height/min/max properties */
+video {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  border-top: 3px solid darkblue;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Visibility example */
+.hidden-example {
+  visibility: hidden;
+}
+
+#main-title {
+  font-size: 36px !important;
+}
