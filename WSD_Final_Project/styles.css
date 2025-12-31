@@ -1,0 +1,72 @@
+/* General Body */
+body {
+  padding-top: 70px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url(photos/Saloon\ image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+  color: rgb(5, 248, 78);
+}
+
+.hero .social-icons a {
+  color: white;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.hero .social-icons a:hover {
+  color: #09f53c;
+}
+
+#services {
+  background-image: url(photos/b-trim\ image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  position: relative;
+  color: #06fa1b;
+}
+
+/* Gallery Section */
+.gallery-img {
+  height: 420px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .gallery-img {
+    height: 250px;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #6486a8;
+  color: #eceaea;
+}
+
+/* Buttons */
+.btn-dark {
+  border-radius: 3;
+}
+
+/* Progress Bars */
+.progress-bar {
+  font-weight: bold;
+}
+
+/* Responsive Hero */
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 0;
+  }
+}
